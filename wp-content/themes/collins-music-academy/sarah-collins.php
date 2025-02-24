@@ -29,5 +29,3 @@ get_header(); ?>
         <a href="/contact" class="cta-button">Inquire About Lessons</a>
     </section>
 </main>
-
-<?php get_footer(); ?>

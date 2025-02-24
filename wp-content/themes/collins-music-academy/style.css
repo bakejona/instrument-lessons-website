@@ -335,3 +335,47 @@ body {
     color: #1a1616;
 }
 
+/* 404 Error Page Styles */
+.error-page {
+    text-align: center;
+    padding: 6rem 2rem;
+    background-color: #1a1616;
+    color: #fff;
+}
+
+.error-content {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #333;
+    padding: 3rem;
+    border-radius: 1rem;
+}
+
+.error-content h1 {
+    font-size: 2.5rem;
+    color: #EFBF04;
+    margin-bottom: 1rem;
+}
+
+.error-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #EFBF04;
+    color: #1a1616;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 2rem;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #fff;
+    color: #1a1616;
+}
+
