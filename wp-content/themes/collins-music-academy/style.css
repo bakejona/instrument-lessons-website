@@ -12,6 +12,8 @@ body {
     ;
 }
 
+/*header and footer*/
+
 .site-header {
     padding: 1rem 2rem;
     display: flex;
@@ -31,7 +33,7 @@ body {
     text-decoration: none;
     font-weight: bold;
     font-size: 1.1rem;
-    color: #fff;
+    color: #f5f0f0;
 }
 
 .main-nav a:hover {
@@ -39,11 +41,297 @@ body {
 }
 
 .site-footer {
-    background-color: #000;
-    color: #fff;
+    background-color: #1a1616;
+    color: #f5f0f0;
     text-align: center;
     padding: 1rem 0;
     font-size: 0.9rem;
 }
 
+/*home page*/
+.home-page {
+    padding: 2rem;
+    color: #fff;
+}
+
+.hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    background-color: #1a1616;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #EFBF04;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.cta-button {
+    padding: 1rem 2rem;
+    background-color: #EFBF04;
+    color: #1a1616;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 2rem;
+    font-size: 1rem;
+}
+
+.cta-button:hover {
+    background-color: #fff;
+    color: #1a1616;
+}
+
+.featured-instructors {
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.instructor-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.instructor {
+    background-color: #333;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    max-width: 300px;
+    text-align: center;
+}
+
+.instructor img {
+    max-width: 100%;
+    border-radius: 1rem;
+}
+
+.instructor h3 {
+    color: #EFBF04;
+    margin: 1rem 0 0.5rem;
+}
+
+.cta {
+    text-align: center;
+    padding: 4rem 2rem;
+    background-color: #1a1616;
+}
+
+/* Lessons Page Styles */
+.lessons-page {
+    padding: 4rem 2rem;
+    color: #fff;
+    background-color: #1a1616;
+}
+
+.lessons-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.lessons-header h1 {
+    font-size: 3rem;
+    color: #EFBF04;
+    margin-bottom: 1rem;
+}
+
+.lessons-header p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.lessons-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.lesson {
+    background-color: #333;
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.lesson h2 {
+    color: #EFBF04;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.lesson p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.lesson ul {
+    text-align: left;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1.5rem;
+}
+
+.lesson li {
+    margin-bottom: 0.5rem;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #EFBF04;
+    color: #1a1616;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 2rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.cta-button:hover {
+    background-color: #fff;
+    color: #1a1616;
+}
+
+/* Instructor Profiles Page */
+.instructors-page {
+    padding: 4rem 2rem;
+    color: #fff;
+    background-color: #1a1616;
+    text-align: center;
+}
+
+.instructors-header h1 {
+    font-size: 3rem;
+    color: #EFBF04;
+    margin-bottom: 1rem;
+}
+
+.instructors-header p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+}
+
+.instructor-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.instructor-card {
+    background-color: #333;
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    max-width: 300px;
+    transition: transform 0.3s ease;
+}
+
+.instructor-card:hover {
+    transform: scale(1.05);
+}
+
+.instructor-card img {
+    max-width: 100%;
+    border-radius: 1rem;
+}
+
+.instructor-card h2 {
+    color: #EFBF04;
+    margin: 1rem 0 0.5rem;
+}
+
+.instructor-card p {
+    font-size: 1rem;
+    color: #ccc;
+}
+
+/* Instructor Profile Page Styles */
+
+.instructor-profile {
+    padding: 4rem 2rem;
+    color: #fff;
+    background-color: #1a1616;
+    text-align: center;
+}
+
+.instructor-header {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.instructor-header img {
+    max-width: 250px;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+    border: 5px solid #EFBF04;
+}
+
+.instructor-header h1 {
+    font-size: 2.5rem;
+    color: #EFBF04;
+    margin-bottom: 0.5rem;
+}
+
+.instructor-header h2 {
+    font-size: 1.5rem;
+    color: #f5f0f0;
+    font-weight: normal;
+}
+
+.instructor-details {
+    max-width: 800px;
+    margin: 3rem auto;
+    text-align: left;
+    background-color: #333;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.instructor-details h3 {
+    color: #EFBF04;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.instructor-details p, 
+.instructor-details ul {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.instructor-details ul {
+    padding-left: 1.5rem;
+}
+
+.instructor-details li {
+    margin-bottom: 0.5rem;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #EFBF04;
+    color: #1a1616;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 2rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #fff;
+    color: #1a1616;
+}
 
